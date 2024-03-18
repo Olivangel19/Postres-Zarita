@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postres Zarita</title>
+    <style>
+        /* Estilos del cuerpo de la página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Estilos del encabezado */
+        header {
+            text-align: center;
+            background-color: #ff7f0e;
+            padding: 20px 0;
+        }
+        h1 {
+            color: #fff;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #fff;
+            font-size: 18px;
+        }
+
+        /* Estilos de navegación */
+        nav {
+            text-align: center;
+            background-color: #333;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000; /* Para asegurar que el menú esté sobre otros elementos */
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 20px;
+            transition: color 0.3s ease;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+
+        /* Estilos del contenido principal */
+        main {
+            padding-top: 60px; /* Ajuste de espacio para el menú fijo */
+        }
+        section {
+            margin-bottom: 40px;
+            padding-top: 20px; /* Ajuste de espacio para evitar que el contenido esté detrás del menú */
+        }
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 20px;
+            justify-content: center;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Postres Zarita</h1>
+        <p>Somos una página publicitaria donde nos encargamos de promocionar los productos de Zarita.</p>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    
+    <!-- Contenido principal -->
+    <main>
+        
+        <section id="inicio">
+            <h2>¿Cómo inició Zarita?</h2>
+            <p>Empecé en el 2022 haciendo pasteles para cumpleaños familiares y poco a poco fui adquiriendo práctica. Comencé a vender por rebanadas para darme a conocer y luego empecé a recibir pedidos personalizados. El año pasado amplié mi oferta con otros postres como chocoflanes, gelatinas, cupcakes y galletas.</p>
+<p>La historia de Zarita es un viaje de pasión y amor por la repostería que comenzó en el año 2022. Todo empezó en un pequeño pueblo, donde Zarita, con su dulzura natural y habilidades culinarias, comenzó a endulzar los momentos especiales de su familia.</p>
+    <p>Su aventura en la repostería comenzó con humildes pasteles caseros, horneados con amor para celebrar los cumpleaños y eventos familiares. Cada rebanada era una obra maestra hecha a mano, llena de sabor y dedicación.</p>
+    <p>A medida que Zarita perfeccionaba sus habilidades, su reputación como maestra de la repostería creció rápidamente. Pronto, amigos y vecinos empezaron a pedir sus creaciones únicas para sus propias celebraciones. Los pasteles de Zarita se convirtieron en el alma de las fiestas locales, llevando alegría a cada evento.</p>
+    <p>Con el apoyo y los ánimos de su comunidad, Zarita decidió llevar su pasión por la repostería al siguiente nivel. Comenzó a experimentar con nuevas recetas, desde chocoflanes decadentes hasta delicadas galletas decoradas a mano. Cada creación era una expresión de su creatividad y amor por el arte culinario.</p>
+    <p>Con el tiempo, Zarita se convirtió en una figura reconocida en el mundo de la repostería local. Su pequeño negocio de postres caseros creció hasta convertirse en una empresa próspera y exitosa. Hoy en día, los deliciosos postres de Zarita continúan endulzando los momentos especiales de las personas, llevando felicidad a cada bocado.</p>
+
+        </section>
+        
+        <section id="productos">
+            <h2>Productos principales</h2>
+            <p>Ofrecemos los siguientes postres:</p>
+            <ul>
+                <li>Gelatinas</li>
+                <li>Pasteles</li>
+                <li>Galletas</li>
+                <li>Chocoflanes</li>
+            </ul>
+        </section>
+        
+    </main>
+
+    <!-- Galería -->
+    <section id="galeria">
+        <h2>Galería</h2>
+        <div class="gallery">
+            <img src="\Mi_Empresa\Resources\Imagenes\Foto 1.jpeg" alt="Foto 1"/>
+            <img src="\Mi_Empresa\Resources\Imagenes\Foto 2.jpeg" alt="Foto 2"/>
+            <img src="\Mi_Empresa\Resources\Imagenes\Foto 3.jpeg" alt="Foto 3"/>
+            <!-- Agrega más imágenes aquí -->
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarnos al correo electrónico: info@postreszarita.com</p>
+    </section>
+
+</body>
+</html>
